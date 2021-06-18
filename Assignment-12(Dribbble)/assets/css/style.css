@@ -1,0 +1,351 @@
+@font-face {
+  font-family: "Haas R";
+  src: url(../fonts/NHaasGroteskTXPro-55Rg.ttf);
+}
+@font-face {
+  font-family: "Haas B";
+  src: url(../fonts/NHaasGroteskTXPro-75Bd.ttf);
+}
+@font-face {
+  font-family: "Haas M";
+  src: url(../fonts/NHaasGroteskTXPro-65Md.ttf);
+}
+
+/* CSS Reset codes start*/
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Haas R", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+.container-fluid {
+  width: 95%;
+  margin: 0px auto;
+}
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+}
+
+/* CSS Reset codes end */
+
+body {
+  background-color: gray;
+}
+
+.nav {
+  background-color: #fff;
+}
+
+.nav::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.nav .logo {
+  width: 10%;
+  float: left;
+}
+
+.nav .logo svg {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.nav .logo svg:hover {
+  opacity: 0.5;
+}
+
+.nav .header {
+  width: 60%;
+  float: left;
+  text-align: left;
+}
+
+.nav .header li {
+  display: inline-block;
+}
+
+.nav .header a {
+  display: inline-block;
+  margin: 30px 10px;
+  font-family: "Haas M";
+  font-size: 15px;
+  color: #6e6d7a;
+}
+
+.nav .header a:hover {
+  color: #ea4c89;
+}
+
+.nav .sign-in {
+  width: 30%;
+  float: left;
+  text-align: right;
+  margin-top: -10px;
+  box-sizing: border-box;
+}
+
+.nav .sign-in li {
+  display: inline-block;
+}
+
+.nav .sign-in ul li a {
+  display: inline-block;
+  font-family: "Haas R";
+  margin: 30px 5px;
+  color: #6e6d7a;
+}
+
+.nav .sign-in ul li:nth-child(3) a {
+  color: #fff;
+  background-color: #ea4c89;
+  font-family: "Haas M";
+  padding: 10px 15px;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.nav .sign-in ul li:nth-child(3) a:hover {
+  opacity: 0.7;
+}
+
+.banner {
+  background-color: #f9f8fd;
+  padding: 50px 0px;
+}
+
+.banner::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.banner .text {
+  width: 50%;
+  float: left;
+}
+
+.banner .text h1 {
+  font-family: "Haas B";
+  margin-top: 70px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.banner .text p {
+  margin-top: 20px;
+}
+
+.banner .text a {
+  display: inline-block;
+  background-color: #ea4c89;
+  color: #fff;
+  padding: 10px 14px;
+  border: 1px solid #ea4c89;
+  border-radius: 10px;
+  margin-top: 20px;
+  opacity: 1;
+}
+
+.banner .text a:hover {
+  opacity: 0.7;
+}
+
+.banner .image {
+  width: 50%;
+  float: left;
+}
+
+.banner .image img {
+  margin-left: 80px;
+}
+
+.banner .image p {
+  margin-top: 10px;
+  text-align: right;
+  color: #999;
+}
+
+.banner .image p a {
+  text-decoration: underline;
+  color: #999;
+}
+
+.main {
+  background-color: #fff;
+  padding: 20px 0px;
+}
+
+.main::after {
+  content: "";
+  display: block;
+
+  clear: both;
+}
+
+.main .select {
+  width: 10%;
+  float: left;
+}
+
+.main .select select {
+  border: 1px solid #ccc;
+  color: #6e6d7a;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.main .menu {
+  width: 70%;
+  float: left;
+  text-align: center;
+}
+
+.main .menu ul {
+  margin-top: 10px;
+}
+.main .menu ul li {
+  display: inline-block;
+}
+
+.main .menu ul li a {
+  margin: 0px 10px;
+  font-size: 14px;
+  color: #6e6d7a;
+}
+.main .filter {
+  width: 20%;
+  float: left;
+  text-align: right;
+}
+
+.main .filter button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.product-gallary {
+  background-color: #fff;
+}
+
+.product-gallary::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.product-gallary .product-featured {
+  width: 22%;
+  height: 210px;
+  display: inline-block;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin: 12px 8px;
+}
+
+.container::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.product-gallary .product-featured::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.product-gallary .product-featured .hover-content {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #ccc;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.product-gallary .product-featured:hover .hover-content {
+  opacity: 1;
+}
+
+.product-gallary .product-featured .hover-content h4 {
+  width: 70%;
+  float: left;
+}
+
+.product-gallary .product-featured .hover-content .hover-btn {
+  width: 30%;
+  float: right;
+}
+
+.product-gallary .product-featured .hover-content .hover-btn i {
+  background-color: #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  color: #6e6d7a;
+}
+
+.product-gallary .product-featured .hover-content .hover-btn i:nth-child(1) {
+  margin-right: 5px;
+}
+
+.product-gallary .product-featured .product-content {
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: -25px;
+  margin: auto;
+}
+
+.sign-in-2 {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.sign-in-2 a {
+  padding: 20px;
+  margin: 10px 5px;
+  display: inline-block;
+}
+
+.sign-in-2 a:nth-child(1) {
+  background-color: #ea4c89;
+  color: #fff;
+}
+.sign-in-2 a:nth-child(2) {
+  color: #ea4c89;
+}
