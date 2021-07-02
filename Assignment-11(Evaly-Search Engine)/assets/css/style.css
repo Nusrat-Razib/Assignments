@@ -1,0 +1,222 @@
+/* css reset code start*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Uni Neue,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+}
+
+svg{
+    vertical-align: bottom;
+}
+
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+
+body{
+    background-color: grey;
+}
+
+h2{
+    display: inline-block;
+}
+
+li{
+    list-style: none;
+}
+
+
+/* css reset code end*/
+
+.contact{
+    background-color: #F7F8FA;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.contact .phone{
+  width: 10%;
+  float:left;
+
+}
+
+.contact .phone svg
+{
+    margin-right: 5px;
+}
+
+.contact .email svg{
+    margin: 0px 5px 0px 10px;
+}
+
+.contact .email{
+  width: 60%;
+  float:left;
+  
+}
+
+.contact .save{
+  width: 30%;
+  float:left;
+  text-align: end;
+}
+
+.container::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.search-engine{
+    padding: 15px;
+    background-color: #fff;
+}
+
+.search-engine .logo{
+    width: 10%;
+    float: left;
+}
+
+.search-engine .logo img{
+    width: 100px;
+}
+
+.search-engine .search{
+    width: 65%;
+    float: left;
+}
+
+.search::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+.search-engine .search .content{
+    width: 90%;
+    float: left;
+   
+    
+}
+
+.search-engine .search .content input{
+    width: 100%;
+    padding: 9px;
+    box-sizing: border-box;
+    border: 2px solid #C9151B;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.search-engine .search .content input:focus{
+    background-color: #F5F6F7;
+}
+
+
+.search-engine .search .icon{
+    width: 10%;
+    float: left;
+    background-color:#C9151B;
+    color: white;
+    text-align: center;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.search-engine .search .icon i{
+    padding: 11.5px;
+   box-sizing: border-box;
+   text-align: center;
+}
+
+.search-engine .icons{
+    width: 25%;
+    float: left;
+    text-align: right;
+
+}
+
+.search-engine .icons svg{
+    margin-left: 45px;
+    vertical-align: bottom;
+    margin-top: 12px;
+}
+
+.nav {
+    background-color: #1A202C;
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav .categories{
+    width: 20%;
+    float: left;
+    background-color: #C9151B;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav .categories h2{
+    margin: 0px 20px;
+}
+
+.nav .menu-1{
+    width: 47%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.nav .menu-1 li{
+    display: inline-block;
+}
+
+.nav .menu-1 li a{
+    color:#F5F6F7;
+    vertical-align: middle;
+    margin-right : 40px; 
+    font-weight: bold;
+}
+
+.nav .menu-1 li:hover a{
+    text-decoration: underline;
+}
+
+.nav .menu-2{
+    width: 32%;
+    float: left;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+.nav .menu-2 li{
+    display: inline-block;
+}
+
+.nav .menu-2 li a{
+    color:#F5F6F7;
+    margin-left: 40px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.nav .menu-2 li:hover a{
+    text-decoration: underline;
+}

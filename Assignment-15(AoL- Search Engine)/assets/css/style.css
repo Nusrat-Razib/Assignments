@@ -1,0 +1,115 @@
+/* css reset code start*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Uni Neue, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+input:focus {
+  outline: none;
+}
+
+svg {
+  vertical-align: bottom;
+}
+
+.container {
+  width: 82%;
+  margin: 0px auto;
+}
+
+/* css reset code end*/
+
+body {
+  background-color: grey;
+}
+
+.nav {
+  background-color: #fff;
+  padding: 10px 35px 5px 15px;
+}
+
+.nav::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.nav .logo {
+  width: 21%;
+  float: left;
+}
+
+.nav .logo a img {
+  width: 55px;
+  margin-top: 3px;
+}
+
+.nav .search-engine {
+  width: 60%;
+  float: left;
+}
+
+.nav .search-engine input {
+  width: 68%;
+  padding: 5px 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #000;
+}
+
+.nav .search-engine button {
+  width: 13%;
+  border: none;
+  text-align: center;
+  border: 1px solid #de187b;
+  padding: 7px 15px;
+  color: #fff;
+  font-family: _Larsseit, Larsseit, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  background-color: #de187b;
+}
+
+.nav .search-engine button:hover {
+  background-color: #ef62a8;
+  border: 1px solid #ef62a8;
+}
+
+.nav .accounts {
+  width: 19%;
+  float: left;
+  text-align: right;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.nav .accounts a i {
+  margin: 0px 5px;
+  font-size: 14px;
+}
+
+.nav .accounts a {
+  vertical-align: middle;
+}
+
+.nav .accounts a:hover {
+  color: #39f;
+}
+
+.nav .accounts a:nth-child(2) i {
+  margin-left: 12px;
+}
+
+.nav .accounts svg {
+  vertical-align: middle;
+  width: 20px;
+}
