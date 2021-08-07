@@ -1,0 +1,165 @@
+/* css reset code start*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+input:focus {
+  outline: none;
+}
+
+svg {
+  vertical-align: bottom;
+}
+
+.container {
+  width: 97%;
+  margin: 0px auto;
+}
+
+/* css reset code end*/
+
+body {
+  background-color: grey;
+}
+
+.menu {
+  background-color: #ececec;
+  text-align: right;
+  padding: 5px;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  margin-left: 5px;
+  font-size: 12px;
+  transition: 0.3s;
+  color: #777;
+  vertical-align: middle;
+}
+
+.menu ul li:nth-child(2) a i {
+  vertical-align: unset;
+}
+
+.menu ul li a i {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.menu ul li a img {
+  width: 95px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.search-engine-menu {
+  background-color: #fff;
+  padding: 15px 0px 10px 0px;
+}
+
+.container::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.search-engine-menu::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.search-engine-menu .bars {
+  width: 4%;
+  float: left;
+  text-align: center;
+  border-right: 2px solid #ccc;
+}
+
+.search-engine-menu .bars i {
+  font-size: 25px;
+  padding: 6px;
+  color: #777;
+  cursor: pointer;
+}
+
+.search-engine-menu .logo {
+  width: 13%;
+  float: left;
+
+  box-sizing: border-box;
+}
+
+.search-engine-menu .logo a img {
+  width: 140px;
+  margin-left: 10px;
+}
+
+.search-engine-menu .search-engine {
+  width: 59%;
+  float: left;
+  position: relative;
+}
+
+.search-engine-menu .search-engine input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #d0d0d1;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #777;
+  font-weight: 400;
+}
+
+.search-engine-menu .search-engine i {
+  position: absolute;
+  top: 0px;
+  padding: 10px 26px;
+  border-radius: 5px;
+  right: 0px;
+  color: white;
+  background-color: #009fdf;
+  cursor: pointer;
+}
+
+.search-engine-menu .menu-2 {
+  width: 23%;
+  float: left;
+  text-align: right;
+}
+
+.search-engine-menu .menu-2 ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.search-engine-menu .menu-2 ul li a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #777777;
+}
+
+.search-engine-menu .menu-2 ul li a p {
+  font-size: 11px;
+  text-align: left;
+  font-weight: normal;
+  color: #777777;
+}
+
+.search-engine-menu .menu-2 ul li a i {
+  font-size: 20px;
+  color: #777777;
+}

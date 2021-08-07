@@ -1,0 +1,176 @@
+/* css reset code start*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Uni Neue, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+input,
+button {
+  display: block;
+}
+
+img {
+  width: 25px;
+}
+
+input:focus {
+  outline: none;
+}
+
+svg {
+  vertical-align: bottom;
+}
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+}
+
+/* css reset code end*/
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/meenabg.jpg");
+
+  background-repeat: no-repeat;
+}
+
+.form {
+  width: 430px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  margin: 50px auto 100px;
+  background-color: #fff;
+}
+
+.form .heading p {
+  background-color: #f4f0ed;
+  padding: 15px;
+  color: #707070;
+  font-size: 1.3em;
+}
+
+.form .inp {
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.form .inp span {
+  color: red;
+}
+
+.form .inp input {
+  padding: 7px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #d9d9d9;
+  color: #707070;
+  transition: 0.4s;
+}
+
+.form .inp input:hover {
+  border: 1px solid #40b87e;
+}
+
+.form .inp input:focus {
+  border: 1px solid #40b87e;
+  box-shadow: 0 0 0 2px rgb(32 170 107 / 20%);
+}
+
+.form .inp label {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  display: inline-block;
+  color: rgba(0, 0, 0);
+}
+
+.form .inp span {
+  margin-right: 5px;
+}
+
+.form .inp p {
+  margin-bottom: 15px;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}
+
+#Conditions {
+  display: inline-block;
+  width: 5%;
+}
+
+#terms {
+  cursor: pointer;
+}
+
+a {
+  color: #20aa6b;
+}
+
+.form .btns {
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+
+.form .btns button {
+  width: 96%;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  font-size: 16px;
+  color: #333;
+  transition: 0.4s;
+}
+
+.form .btns button:hover {
+  border: 1px solid #40b87e;
+  color: #20aa6b;
+}
+
+.form .btns p:nth-child(2) {
+  margin: 15px 0px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.form .btns p:nth-child(4) {
+  margin: 5px 0px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.form .btns a:nth-child(5) {
+  background-color: #3b5999;
+  color: #fff;
+  display: inline-block;
+  margin-top: 15px;
+  width: 46%;
+  padding: 7px 0px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.form .btns a:nth-child(6) {
+  background-color: #dd4b39;
+  color: #fff;
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 3px;
+  width: 46%;
+  padding: 7px 0px;
+}

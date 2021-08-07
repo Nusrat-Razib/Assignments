@@ -1,0 +1,208 @@
+/* css reset code start*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  transition: 0.4s;
+  font-family: Uni Neue, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+input:focus {
+  outline: none;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+svg {
+  vertical-align: bottom;
+}
+
+.container {
+  width: 96%;
+  margin: 0px auto;
+}
+
+/* css reset code end*/
+
+body {
+  background-color: grey;
+}
+
+.search-engine-menu {
+  background-color: #fdd670;
+}
+
+.search-engine-menu::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.search-engine-menu .bars {
+  width: 5%;
+  float: left;
+}
+
+.search-engine-menu .bars i {
+  margin-left: 15px;
+  margin-top: 5px;
+  font-size: 21px;
+  padding: 12px 15px;
+  cursor: pointer;
+}
+
+.search-engine-menu .bars:hover i {
+  background-color: #f9cd5c;
+}
+
+.search-engine-menu .logo {
+  width: 12%;
+  float: left;
+}
+
+.search-engine-menu .logo img {
+  width: 130px;
+}
+
+.search-engine-menu .search-engine {
+  width: 45%;
+  float: left;
+  position: relative;
+}
+
+.search-engine-menu .search-engine input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #fdd670;
+  border-radius: 3px;
+  margin-top: 4px;
+}
+
+.search-engine-menu .search-engine i {
+  position: absolute;
+  top: 13px;
+  font-size: 20px;
+  right: 13px;
+  color: #615e58;
+  cursor: pointer;
+}
+
+.search-engine-menu .area {
+  width: 7%;
+  margin-left: 15px;
+  float: left;
+  text-align: center;
+  border-left: 1px solid #ecc766;
+  border-right: 1px solid #ecc766;
+  height: 53px;
+  cursor: pointer;
+}
+
+.search-engine-menu .area:hover {
+  background-color: #eeb529;
+}
+
+.search-engine-menu .area span {
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 15px;
+  color: #615e58;
+  margin: 15px 5px 0px;
+}
+
+.search-engine-menu .area i {
+  color: #615e58;
+}
+
+.search-engine-menu .area i:nth-child(1) {
+  font-size: 20px;
+}
+
+.search-engine-menu .area i:nth-child(1) {
+  font-size: 13px;
+}
+
+.search-engine-menu .help {
+  width: 10%;
+  float: left;
+  text-align: center;
+  border-right: 1px solid #ecc766;
+  cursor: pointer;
+  height: 53px;
+}
+
+.search-engine-menu .help:hover {
+  background-color: #eeb529;
+}
+
+.search-engine-menu .help span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #615e58;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.search-engine-menu .help i {
+  color: #bd9322;
+}
+
+.search-engine-menu .language {
+  width: 10%;
+  float: left;
+  text-align: center;
+  border-right: 1px solid #ecc766;
+  height: 53px;
+}
+
+.search-engine-menu .language ul li {
+  cursor: pointer;
+}
+
+.search-engine-menu .language ul li a {
+  font-size: 15px;
+  font-weight: 700;
+  color: #615e58;
+  font-size: 15px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.search-engine-menu .language ul li:nth-child(1) a {
+  color: #ff686e;
+}
+
+.search-engine-menu .login {
+  width: 9%;
+  float: left;
+  height: 48px;
+  text-align: center;
+  padding-left: 8px;
+  padding-bottom: 5px;
+  background-color: #ff686e;
+  cursor: pointer;
+}
+
+.search-engine-menu .login:hover {
+  background-color: #e04f54;
+}
+
+.search-engine-menu .login a {
+  font-weight: 700;
+  color: #fff;
+  font-size: 15px;
+  display: inline-block;
+  margin-top: 15px;
+}

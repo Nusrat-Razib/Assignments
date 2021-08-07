@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../font/Roboto/Roboto-Regular.ttf");
+}
+
+/* css reset codes start */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto-Regular";
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+input {
+  display: block;
+}
+
+.container {
+  width: 60%;
+  margin: 0px auto;
+}
+/* css reset codes start */
+
+body {
+  background-color: #eff0f5;
+}
+
+.form {
+  background-color: #fff;
+  padding: 10px 5px;
+}
+
+.heading {
+  margin: 100px 0px 30px;
+}
+
+.heading::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.heading .wel {
+  width: 50%;
+  float: left;
+}
+
+.heading .wel h1 {
+  font-size: 22px;
+  color: #424242;
+  font-weight: 400;
+}
+
+.heading .reg {
+  width: 50%;
+  float: left;
+  text-align: right;
+  margin-top: 12px;
+}
+
+.heading .reg p {
+  font-size: 12px;
+  color: #757575;
+}
+
+.heading .reg p a {
+  color: #049cb9;
+}
+
+.form::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.form .inp {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form .inp form input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 7px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.form .inp form label {
+  font-size: 12px;
+  display: block;
+  color: #424242;
+  margin-bottom: 5px;
+}
+
+.form .inp form a {
+  text-align: right;
+  display: block;
+  color: #049cb9;
+  font-size: 12px;
+}
+
+.form .btn {
+  width: 50%;
+  padding: 40px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.form .btn input {
+  padding: 15px 10px;
+  font-size: 14px;
+  background-color: #f57224;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.form .btn input:hover {
+  background-color: #d0611e;
+}
+
+.form .btn p {
+  margin: 10px 0px;
+  font-size: 12px;
+  color: #757575;
+}
+
+.form .btn a:nth-child(3) {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #3b5998;
+  border-radius: 5px;
+  background-color: #3b5998;
+}
+
+.form .btn a i {
+  margin-right: 20px;
+}
+
+.form .btn a:nth-child(4) {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #d34836;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #d34836;
+}

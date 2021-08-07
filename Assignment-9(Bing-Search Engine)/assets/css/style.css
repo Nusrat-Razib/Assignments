@@ -63,21 +63,30 @@ body {
   position: relative;
 }
 
-.nav .menu .menu-1 ul {
-  margin-top: 10px;
+.nav .menu ul {
+  margin-top: 4px;
 }
 
-.nav .menu .menu-1 ul li {
+.nav .menu ul li {
   display: inline-block;
 }
 
-.nav .menu .menu-1 ul li a {
+.nav .menu ul li a {
   color: rgba(255, 255, 255, 0.8);
   margin: 0px 15px;
   font-size: 13px;
 }
 
-.nav .menu .menu-1 .dot a {
+.nav .menu .menu-1 {
+  width: 60px;
+  display: inline-block;
+}
+
+.nav .menu .menu-1 ul {
+  display: inline-block;
+}
+
+.nav .menu .menu-1 a {
   display: inline-block;
   vertical-align: super;
   font-weight: bold;
@@ -85,19 +94,20 @@ body {
 
 .nav .menu .menu-1 .hover-content {
   width: 140px;
-  height: 160px;
+  height: 200px;
   border-radius: 10px;
   box-sizing: border-box;
   background-color: #fff;
   position: absolute;
-  top: 35px;
+  top: 33px;
   right: 0px;
-  left: -210px;
+  left: -180px;
   margin: auto;
   visibility: hidden;
+  z-index: 1;
 }
 
-.nav .menu .menu-1 .dot:hover .hover-content {
+.nav .menu .menu-1:hover .hover-content {
   visibility: visible;
 }
 
@@ -106,9 +116,14 @@ body {
   padding: 10px;
 }
 
+.nav .menu .menu-1 .hover-content ul li:hover {
+  background-color: #eee;
+}
+
 .nav .menu .menu-1 .hover-content ul li {
   display: block;
   margin-top: 10px;
+  width: 140px;
 }
 
 .nav .menu .menu-1 .hover-content ul li:nth-child(2) a {
@@ -123,9 +138,9 @@ body {
 }
 
 .nav .sign-in {
-  width: 20%;
-  float: left;
-  text-align: left;
+  position: absolute;
+  top: 0px;
+  right: 150px;
 }
 
 .nav .sign-in a {

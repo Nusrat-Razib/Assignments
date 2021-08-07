@@ -1,0 +1,257 @@
+@font-face {
+  font-family: "brygada";
+  src: url("../fonts/Brygada/Brygada1918-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "roboto b";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "opensans b";
+  src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "opensans r";
+  src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+}
+
+/* css reset code start*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+label,
+input {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+svg {
+  vertical-align: bottom;
+}
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+}
+
+/* css reset code end*/
+
+body {
+  color: #111;
+}
+
+.logo {
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  padding: 25px 100px;
+  border-bottom: 1px solid rgb(219, 240, 163);
+  position: fixed;
+  top: 0;
+}
+
+.logo img {
+  width: 75px;
+  cursor: pointer;
+}
+
+.prothom {
+  position: relative;
+  width: 463px;
+
+  margin: 110px auto 0px;
+  border: 1px solid rgb(219, 240, 163);
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.prothom .heading h1 {
+  color: #001246;
+  font-family: "brygada";
+  font-weight: bold;
+  font-size: 36px;
+  margin: 10px 0px;
+}
+
+.prothom .btns button:nth-child(1) {
+  display: block;
+
+  width: 100%;
+  border: none;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  background-color: #4285f4;
+  text-align: left;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.prothom .btns button:nth-child(1):hover {
+  background-color: #3367d6;
+}
+
+.prothom .btns button:nth-child(1) a {
+  color: #fff;
+}
+
+.prothom .btns button:nth-child(1) a img {
+  vertical-align: middle;
+  margin-right: 125px;
+  width: 35px;
+}
+
+.prothom .btns button:nth-child(2) {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 8px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.prothom .btns button:nth-child(2):hover {
+  background-color: #f2f7f2;
+}
+
+.prothom .btns button:nth-child(2) i {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.prothom .btns a {
+  color: #000;
+}
+
+.prothom .or p {
+  margin: 30px;
+  font-size: 18px;
+  position: relative;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.prothom .or p span {
+  position: absolute;
+  top: -9px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  font-size: 14px;
+  background-color: white;
+  width: 45px;
+  color: #606060;
+}
+
+.prothom .btns a img {
+  vertical-align: sub;
+}
+
+.prothom .form {
+  position: relative;
+}
+
+.prothom .form input:nth-child(2) {
+  width: 100%;
+  padding: 12px 0px 12px 50px;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+.prothom .form i {
+  position: absolute;
+  top: 13px;
+  left: 15px;
+  color: #606060;
+}
+
+.prothom .form input:nth-child(2):hover {
+  border: 1px solid #3c8224;
+}
+
+.prothom .form p {
+  margin-bottom: 30px;
+}
+
+.prothom .form input:last-child {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: 14px;
+
+  border-radius: 5px;
+  background-color: #14a800;
+  border: 1px solid #14a800;
+  border-radius: 25px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.prothom .form input:last-child:hover {
+  background-color: #3c8224;
+}
+
+.prothom .login p {
+  font-size: 20px;
+}
+
+.prothom .login p a {
+  color: #f4511e;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.footer {
+  margin: 10px auto 0px;
+  background-color: #001e00;
+  /* height: 130px; */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer .f-1 {
+  padding: 25px;
+}
+
+.footer .f-2 {
+  padding-bottom: 15px;
+}
+
+.footer .f-2 ul li a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer .f-2 ul li a:hover {
+  color: #3c8224;
+}

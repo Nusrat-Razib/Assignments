@@ -1,0 +1,220 @@
+@font-face {
+  font-family: "roboto r";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "roboto b";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "opensans b";
+  src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "opensans r";
+  src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+}
+
+/* css reset code start*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "roboto r", "opensans r";
+}
+
+a {
+  text-decoration: none;
+}
+
+label,
+input {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+svg {
+  vertical-align: bottom;
+}
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+}
+
+/* css reset code end*/
+
+body {
+  color: #111;
+}
+
+.prothom {
+  position: relative;
+  width: 450px;
+  height: 750px;
+  margin: 50px auto 0px;
+  border: 1px solid #e2e2e2;
+  text-align: center;
+  border-radius: 10px;
+  padding: 65px;
+}
+
+.back {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.back a {
+  color: #000;
+}
+
+.back a i {
+  margin-right: 8px;
+}
+
+.prothom .logo img {
+  width: 150px;
+}
+
+.prothom .logo h1 {
+  color: #001246;
+  font-weight: bold;
+  font-size: 2.3rem;
+  margin: 10px 0px;
+}
+
+.prothom .logo h2 {
+  color: #001246;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+
+.prothom .logo h2 span {
+  font-size: 1.5rem;
+  font-family: "roboto b", "opensans b";
+}
+
+.prothom .btns button:nth-child(1) {
+  display: block;
+  width: 100%;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 22px;
+  margin-top: 25px;
+  font-size: 1.2rem;
+  background-color: #3b5998;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.prothom .btns button:nth-child(1) a i {
+  font-size: 25px;
+  margin-right: 115px;
+}
+
+.prothom .btns button:nth-child(1) a,
+.prothom .btns button:nth-child(2) a {
+  word-spacing: 3px;
+}
+
+.prothom .btns button:nth-child(1) a span,
+.prothom .btns button:nth-child(2) a span {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.prothom .btns button:nth-child(2) {
+  display: block;
+  width: 100%;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 22px;
+  margin-top: 25px;
+  font-size: 1.2rem;
+  background-color: #4285f4;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.prothom .btns button:nth-child(2) a img {
+  margin-right: 115px;
+}
+
+.prothom .btns a {
+  color: #fff;
+}
+
+.prothom .btns p {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.prothom .btns a img {
+  vertical-align: sub;
+}
+
+.prothom .form input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: 19px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.prothom .form p {
+  margin-bottom: 30px;
+}
+
+.prothom .form input:last-child {
+  background-color: #f4511e;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.prothom .form input:last-child:hover {
+  background-color: #f6744b;
+}
+
+.prothom .login p {
+  font-size: 20px;
+}
+
+.prothom .login p a {
+  color: #f4511e;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.footer {
+  margin: 0px auto;
+  height: 50px;
+  width: 450px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer p {
+  color: #999;
+}
+
+.footer p a {
+  color: #09f;
+  text-decoration: underline;
+  font-weight: bold;
+}

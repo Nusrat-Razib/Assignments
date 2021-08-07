@@ -1,0 +1,256 @@
+@font-face {
+  font-family: "Lato R";
+  src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lato B";
+  src: url("../fonts/Lato/Lato-Bold.ttf");
+}
+
+/* css reset code start*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato R";
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+input:focus {
+  outline: none;
+}
+
+svg {
+  vertical-align: bottom;
+}
+
+.container {
+  width: 88%;
+  margin: 0px auto;
+}
+
+/* css reset code end*/
+
+body {
+  background-color: grey;
+}
+
+.menu {
+  background-color: #83b735;
+  text-align: right;
+  padding: 5px;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  margin: 10px;
+  font-size: 12px;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.menu ul li:hover a {
+  color: #deecca;
+}
+
+.container::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.nav {
+  background-color: #fff;
+}
+
+.nav::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.nav .logo {
+  width: 25%;
+  float: left;
+}
+
+.nav .logo img {
+  width: 170px;
+}
+
+.nav .menu-2 {
+  width: 50%;
+  margin-top: 20px;
+  float: left;
+}
+
+.nav .menu-2 ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav .menu-2 ul li a {
+  margin-right: 15px;
+  font-weight: 400;
+  color: #333;
+  font-size: 14px;
+  font-family: "Lato B";
+}
+
+.nav .menu-2 ul li:nth-child(1) a {
+  color: #83b735;
+}
+
+.nav .menu-2 ul li:hover a {
+  color: #83b735;
+}
+
+.nav .social {
+  width: 25%;
+  float: left;
+  margin-top: 15px;
+  text-align: right;
+}
+
+.nav .social ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav .social ul li a {
+  margin-left: 5px;
+  background-color: antiquewhite;
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.nav .social ul li:nth-child(1) a {
+  background-color: #365493;
+}
+
+.nav .social ul li:nth-child(1) a:hover {
+  background-color: #2f487f;
+}
+
+.nav .social ul li a i {
+  color: #fff;
+  font-size: 14px;
+}
+
+.nav .social ul li:nth-child(2) a {
+  background-color: #774430;
+}
+
+.nav .social ul li:nth-child(2) a:hover {
+  background-color: #673b29;
+}
+
+.nav .social ul li:nth-child(3) a {
+  background-color: #cb2027;
+}
+
+.nav .social ul li:nth-child(3) a:hover {
+  background-color: #af1c22;
+}
+
+.nav .social ul li:nth-child(4) a {
+  background-color: #0274b3;
+}
+
+.nav .social ul li:nth-child(4) a:hover {
+  background-color: #2f487f;
+}
+
+.search-engine {
+  background-color: #fff;
+  padding-bottom: 12px;
+}
+
+.search-engine .cate {
+  width: 20%;
+  float: left;
+  background-color: #83b735;
+  color: white;
+  padding: 20px;
+}
+
+.search-engine .cate p i:nth-child(1) {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.search-engine .cate p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.search-engine .cate p i:nth-child(3) {
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+.search-engine .search {
+  width: 60%;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+
+.search-engine .search i {
+  position: absolute;
+  top: 12px;
+  right: 40px;
+  font-size: 20px;
+}
+
+.search-engine .search input {
+  width: 95%;
+  box-sizing: border-box;
+  border: 2px solid #8cb23b;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 12px 18px;
+}
+
+.search-engine .login {
+  width: 10%;
+  float: left;
+  margin-top: 10px;
+}
+
+.search-engine .login span a {
+  font-size: 14px;
+  color: #83b735;
+}
+
+.search-engine .login span:hover a {
+  color: #cac3c3;
+}
+
+.search-engine .cart {
+  width: 5%;
+  float: left;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.search-engine .cart i {
+  font-size: 20px;
+}
+
+.search-engine .cart i:hover {
+  color: #83b735;
+}
+
+.search-engine .cart span {
+  margin-left: 6px;
+}

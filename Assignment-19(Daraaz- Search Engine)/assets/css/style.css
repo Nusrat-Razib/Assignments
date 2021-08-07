@@ -1,0 +1,137 @@
+/* css reset code start*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Uni Neue, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+input:focus {
+  outline: none;
+}
+
+svg {
+  vertical-align: bottom;
+}
+
+.container {
+  width: 88%;
+  margin: 0px auto;
+}
+
+/* css reset code end*/
+
+body {
+  background-color: grey;
+}
+
+.menu {
+  background-color: #ececec;
+  text-align: right;
+  padding: 5px;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  margin-left: 35px;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.menu ul li:hover a {
+  text-decoration: underline;
+  color: orange;
+}
+
+.menu ul li:nth-child(1) a {
+  color: #f36f36;
+}
+
+.menu ul li:nth-child(1):hover a {
+  text-decoration: underline;
+}
+
+.search-engine-menu {
+  background-color: #fff;
+  padding: 10px 0px 15px 0px;
+}
+
+.container::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.search-engine-menu::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.search-engine-menu .logo {
+  width: 17%;
+  float: left;
+
+  box-sizing: border-box;
+}
+
+.search-engine-menu .logo a img {
+  width: 140px;
+}
+
+.search-engine-menu .search-engine {
+  width: 58%;
+  float: left;
+  position: relative;
+}
+
+.search-engine-menu .search-engine input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  background-color: #f6f7f7;
+  color: #1c1c1c;
+  border: 1px solid #edeff1;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.search-engine-menu .search-engine i {
+  position: absolute;
+  top: 0px;
+  padding: 14px;
+  right: 0px;
+  color: white;
+  background-color: orange;
+  cursor: pointer;
+}
+
+.search-engine-menu .cart {
+  width: 25%;
+  float: left;
+  text-align: right;
+}
+
+.search-engine-menu .cart i {
+  font-size: 25px;
+  vertical-align: text-bottom;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-engine-menu .cart img {
+  width: 185px;
+  margin-left: 35px;
+  cursor: pointer;
+}

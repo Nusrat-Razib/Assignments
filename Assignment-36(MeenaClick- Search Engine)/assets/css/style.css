@@ -1,0 +1,227 @@
+/* css reset code start*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Uni Neue, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+input:focus {
+  outline: none;
+}
+
+svg {
+  vertical-align: bottom;
+}
+
+.container {
+  width: 96%;
+  margin: 0px auto;
+}
+
+/* css reset code end*/
+
+body {
+  background-color: grey;
+}
+
+.search-engine-menu {
+  background-color: #445268;
+  padding: 20px 0px 10px 0px;
+}
+
+.container::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.search-engine-menu::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.search-engine-menu .logo {
+  width: 13%;
+  float: left;
+  margin-top: -13px;
+}
+
+.search-engine-menu .logo a img {
+  width: 135px;
+}
+
+.search-engine-menu .search-engine {
+  width: 51%;
+  float: left;
+}
+
+.search-engine-menu .search-engine .inp {
+  width: 92%;
+  float: left;
+}
+
+.search-engine-menu .search-engine .inp input {
+  padding: 10.25px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #232323;
+  border: 2px solid #20aa6b;
+  border-radius: 5px 0px 0px 5px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.search-engine-menu .search-engine .btn {
+  width: 8%;
+  float: left;
+}
+
+.search-engine-menu .search-engine .btn button {
+  padding: 12.25px 20px;
+  border: none;
+  background-color: #20aa6b;
+  border: 2px solid #20aa6b;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+}
+
+.search-engine-menu .search-engine .btn button i {
+  font-size: 16px;
+  color: #fff;
+}
+
+.search-engine-menu .area {
+  width: 10%;
+  float: left;
+  margin-left: 25px;
+  text-align: center;
+  padding: 5px 0px;
+  background-color: #fff;
+  position: relative;
+  border: 2px solid #9c9c9c;
+  border-radius: 5px;
+  transition: 0.7s;
+}
+
+.search-engine-menu .area:hover {
+  border: 2px solid #20aa6b;
+}
+
+.search-engine-menu .area:hover .icon i {
+  color: #20aa6b;
+}
+
+.search-engine-menu .area:hover .content p:nth-child(2) {
+  color: #20aa6b;
+}
+
+.search-engine-menu .area .icon {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  bottom: 0;
+  margin: auto;
+}
+
+.search-engine-menu .area .icon i {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  transition: 0.7s;
+}
+
+.search-engine-menu .area .content {
+  width: 100%;
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.search-engine-menu .area .content p:nth-child(2) {
+  font-weight: bold;
+}
+
+.search-engine-menu .login {
+  width: 9%;
+  float: left;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 15px;
+  text-align: center;
+  font-size: 0.7em;
+  padding: 9px;
+  border: 2px solid #9c9c9c;
+  border-radius: 5px;
+  transition: 0.7s;
+}
+
+.search-engine-menu .login:hover {
+  border: 2px solid #20aa6b;
+}
+
+.search-engine-menu .login:hover i {
+  color: #20aa6b;
+}
+
+.search-engine-menu .login a {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.search-engine-menu .login i {
+  font-size: 25px;
+  vertical-align: sub;
+  margin-right: 5px;
+  color: rgba(0, 0, 0, 0.5);
+  transition: 0.7s;
+}
+
+.search-engine-menu .items {
+  width: 10%;
+  float: left;
+  margin-left: 15px;
+  padding: 4px 0px;
+  text-align: center;
+  background-color: #20aa6b;
+  position: relative;
+  border: 2px solid #178a56;
+  border-radius: 5px;
+  transition: 0.7s;
+}
+
+.search-engine-menu .items:hover {
+  border: 2px solid #20aa6b;
+}
+
+.search-engine-menu .items .icon {
+  position: absolute;
+  left: 6px;
+  top: 10px;
+  bottom: 0;
+  margin: auto;
+}
+
+.search-engine-menu .items .icon i {
+  font-size: 25px;
+  color: #fff;
+}
+
+.search-engine-menu .items .content p:nth-child(2) {
+  color: #fff;
+  font-weight: bold;
+}
+
+.search-engine-menu .items .content {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.8em;
+}

@@ -1,0 +1,253 @@
+@font-face {
+  font-family: "brygada";
+  src: url("../fonts/Brygada/Brygada1918-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "roboto b";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "opensans b";
+  src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "opensans r";
+  src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+}
+
+/* css reset code start*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: macan, helvetica neue, Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+label,
+input {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+svg {
+  vertical-align: bottom;
+}
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+}
+
+/* css reset code end*/
+
+body {
+  color: #111;
+}
+
+.fiverr {
+  position: relative;
+  width: 331px;
+  box-shadow: 0 0 8px #95979d;
+  margin: 50px auto 0px;
+  border: 1px solid #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 25px 25px 0px 25px;
+}
+
+.fiverr .heading h1 {
+  color: #404145;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.fiverr .btns button:nth-child(1) {
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  padding: 8px;
+  background: #4267b2;
+  border: 1px solid #4267b2;
+}
+
+.fiverr .btns button:nth-child(1):hover {
+  background-color: #5577ba;
+  border: 1px solid #5577ba;
+}
+
+.fiverr .btns button:nth-child(1) a {
+  color: #fff;
+}
+
+.fiverr .btns button:nth-child(1) i {
+  font-size: 20px;
+  color: #fff;
+
+  margin-right: 57px;
+}
+
+.fiverr .btns button:nth-child(2) {
+  display: block;
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid #e4e5e7;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+
+  text-align: left;
+}
+
+.fiverr .btns button:nth-child(2):hover {
+  background-color: #fafafa;
+}
+
+.fiverr .btns button:nth-child(2) a {
+  color: #62646a;
+}
+
+.fiverr .btns button:nth-child(2) a img {
+  vertical-align: middle;
+  margin-right: 53px;
+  width: 35px;
+}
+
+.fiverr .btns button:nth-child(3) {
+  width: 100%;
+  border: 1px solid #e4e5e7;
+  color: #62646a;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px;
+  text-align-last: left;
+  background-color: white;
+}
+
+.fiverr .btns button:nth-child(3):hover {
+  background-color: #fafafa;
+}
+
+.fiverr .btns button:nth-child(3) i {
+  font-size: 20px;
+  margin-right: 70px;
+  color: #111;
+}
+
+.fiverr .btns a {
+  color: #62646a;
+}
+
+.fiverr .or p {
+  margin: 30px 0px;
+  width: 100%;
+  font-size: 18px;
+  position: relative;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.fiverr .or p span {
+  position: absolute;
+  top: -9px;
+  right: 0;
+  left: 0;
+  font-weight: 600;
+  margin: auto;
+  font-size: 14px;
+  background-color: white;
+  width: 45px;
+  color: #606060;
+}
+
+.fiverr .btns a img {
+  vertical-align: sub;
+}
+
+.fiverr .form {
+  position: relative;
+}
+
+.fiverr .form input:nth-child(1) {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+.fiverr .form input:nth-child(1):hover {
+  border-color: #95979d;
+}
+.fiverr .form input:nth-child(1):focus {
+  border-color: #95979d;
+}
+
+.fiverr .form p {
+  margin-bottom: 30px;
+}
+
+.fiverr .form input:nth-child(2) {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: 14px;
+
+  border-radius: 5px;
+  background-color: #1dbf73;
+  border: 1px solid #1dbf73;
+  border-radius: 5px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.fiverr .form input:nth-child(2):hover {
+  background-color: #19a463;
+}
+
+.fiverr .form p {
+  font-size: 14px;
+  color: #62646a;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.fiverr .login {
+  border-top: 1px solid #eee;
+  width: 100%;
+}
+
+.fiverr .login p {
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+
+.fiverr .login p a {
+  color: #1dbf73;
+}
+
+.fiverr .login p a:hover {
+  text-decoration: underline;
+}

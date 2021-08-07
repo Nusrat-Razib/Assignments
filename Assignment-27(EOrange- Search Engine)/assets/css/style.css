@@ -1,0 +1,161 @@
+/* css reset code start*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Uni Neue, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+input:focus {
+  outline: none;
+}
+
+svg {
+  vertical-align: bottom;
+}
+
+.container {
+  width: 88%;
+  margin: 0px auto;
+}
+
+/* css reset code end*/
+
+body {
+  background-color: grey;
+}
+
+.menu {
+  background-color: #fff;
+  text-align: right;
+  padding: 5px;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  margin: 10px;
+  font-size: 12px;
+  transition: 0.3s;
+  color: #6d6d6d;
+}
+
+.menu ul li:hover a {
+  color: #fe6801;
+}
+
+.search-engine-menu {
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+
+.container::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.search-engine-menu::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.search-engine-menu .logo {
+  width: 17%;
+  float: left;
+}
+
+.search-engine-menu .logo a img {
+  width: 175px;
+}
+
+.search-engine-menu .search-engine {
+  width: 48%;
+  float: left;
+  margin-left: 114px;
+  margin-top: 10px;
+}
+
+.search-engine-menu .search-engine .inp {
+  width: 92%;
+  float: left;
+}
+
+.search-engine-menu .search-engine .inp input {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #dbdbdb;
+  color: #232323;
+  border: none;
+  border-radius: 0px;
+  outline: none;
+
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.search-engine-menu .search-engine .btn {
+  width: 8%;
+  float: left;
+}
+
+.search-engine-menu .search-engine .btn button {
+  padding: 6.25px 20px;
+  border: none;
+  background-color: #fe6801;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.search-engine-menu .cart {
+  width: 25%;
+  float: left;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.search-engine-menu .cart i {
+  margin-right: 5px;
+  font-size: 20px;
+  color: #fe6801;
+  vertical-align: text-bottom;
+
+  cursor: pointer;
+}
+
+.search-engine-menu .cart ul li {
+  list-style: none;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.search-engine-menu .cart ul li a {
+  margin: 0px 10px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.search-engine-menu .cart ul li:hover a {
+  color: #fe6801;
+}
+
+.search-engine-menu .cart ul li span {
+  font-size: 12px;
+  color: #000;
+  font-weight: 100;
+}
+
+.search-engine-menu .cart i {
+  vertical-align: baseline;
+}

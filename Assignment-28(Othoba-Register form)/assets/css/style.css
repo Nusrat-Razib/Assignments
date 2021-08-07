@@ -1,0 +1,203 @@
+@font-face {
+  font-family: "roboto r";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "roboto b";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "opensans b";
+  src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "opensans r";
+  src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+}
+
+/* css reset code start*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "roboto r";
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+svg {
+  vertical-align: bottom;
+}
+
+.container {
+  width: 85%;
+  margin: 0px auto;
+}
+
+/* css reset code end*/
+
+.reg {
+  border: 1px solid #d3d3d3;
+  margin: 20px 0px;
+}
+
+.reg h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 15px 25px;
+}
+
+.reg .form {
+  border-top: 1px solid #d3d3d3;
+}
+
+.reg .form .inp {
+  margin: 20px;
+  margin-left: 150px;
+}
+
+.reg .form .inp p {
+  font-size: 11px;
+  text-align: center;
+  width: 425px;
+  color: #4cb17c;
+}
+
+.reg .form .inp label {
+  font-size: 12px;
+  color: #444;
+}
+
+.reg .form .inp input,
+textarea,
+select {
+  border: 1px solid #d0d0d1;
+}
+
+.reg .form .inp input:focus,
+textarea:focus,
+select:focus {
+  transition: 0.3s;
+  border-color: #248ece;
+  box-shadow: 0 0 8px rgb(36 142 206 / 30%);
+}
+
+.reg .form .inp input,
+textarea {
+  padding: 5px;
+  width: 410px;
+}
+
+.reg .form .inp select {
+  width: 420px;
+  padding: 5px;
+  background-image: linear-gradient(
+    to right top,
+    #f7f7f7,
+    #f9f9f9,
+    #fbfbfb,
+    #fdfdfd,
+    #fff
+  );
+}
+
+.reg .form .inp .p {
+  margin-left: 25px;
+}
+
+.reg .form .inp .e {
+  margin-left: 29px;
+}
+
+.reg .form .inp .a {
+  margin-left: 15px;
+  vertical-align: top;
+}
+
+.reg .form .inp .ci {
+  margin-left: 38px;
+}
+
+.reg .form .inp .co {
+  margin-left: 17px;
+}
+
+.reg .form .inp .s {
+  margin-left: -17px;
+}
+
+#n-l {
+  width: auto;
+  vertical-align: sub;
+}
+
+.reg .form .inp .cp {
+  margin-left: -46px;
+}
+
+.reg .form .btns {
+  width: 215px;
+  text-align: center;
+
+  margin: 10px 0px 50px 250px;
+}
+
+.reg .form .btns p {
+  margin: 5px 0px;
+  font-size: 20px;
+  color: #444;
+}
+
+.reg .form .btns button {
+  width: 100%;
+  padding: 10px 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.reg .form .btns .f {
+  border: none;
+  position: relative;
+  background-image: linear-gradient(#4c69ba, #3b55a0);
+}
+
+.reg .form .btns .f i {
+  font-size: 18px;
+  position: absolute;
+  left: 12px;
+}
+
+.reg .form .btns .r {
+  border: none;
+
+  background-image: linear-gradient(#009fdf, #029ad7);
+}
+
+.reg .form .btns .f:hover {
+  background-color: #5b7bd5;
+  background-image: linear-gradient(#5b7bd5, #4864b1);
+}
+
+.reg .form .btns .r:hover {
+  transition: 0.3s;
+  background-image: linear-gradient(#029ad7, #0687bb);
+}

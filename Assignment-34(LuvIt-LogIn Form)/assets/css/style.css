@@ -1,0 +1,204 @@
+@font-face {
+  font-family: "roboto r";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "roboto b";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "opensans b";
+  src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "opensans r";
+  src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+}
+
+/* css reset code start*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "roboto r", "opensans r";
+}
+
+a {
+  text-decoration: none;
+}
+
+label,
+input {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+svg {
+  vertical-align: bottom;
+}
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+}
+
+/* css reset code end*/
+
+body {
+  background-color: #f2f3f8;
+}
+
+.luvit {
+  width: 400px;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.luvit .head h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.luvit .form input {
+  padding: 10px 13px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  font-size: 0.875rem;
+  border-radius: 3px;
+  border: 1px solid #e2e5ec;
+}
+
+.luvit .form input:focus {
+  border: 1px solid #f8786b;
+}
+
+.luvit .form input:nth-child(5) {
+  display: inline-block;
+  width: 25px;
+  vertical-align: middle;
+}
+
+.luvit .form label:nth-child(6) {
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 25px;
+  color: #888;
+  vertical-align: super;
+  margin-left: 5px;
+}
+
+.luvit .form input:nth-child(7) {
+  background-color: #f8786b;
+  color: #fff;
+  font-weight: bold;
+  padding: 11px;
+  border: 1px solid #f8786b;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  transition: 0.3s;
+}
+
+.luvit .form input:nth-child(7):hover {
+  background-color: #e62e04;
+}
+
+.luvit .or {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.luvit .or p {
+  position: absolute;
+  margin: auto;
+  top: -9px;
+  right: 0;
+  left: 0;
+  background-color: white;
+  width: 105px;
+  font-size: 14px;
+  color: #888;
+}
+
+.luvit .or ul {
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.luvit .or ul li {
+  display: inline-block;
+  margin: 0px 6px;
+}
+
+.luvit .or ul li a i {
+  vertical-align: top;
+}
+
+.luvit .or ul li:nth-child(1) a {
+  background-color: #3b5998;
+  width: 15px;
+  height: 15px;
+  display: block;
+  color: white;
+  border: 1px solid #3b5998;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.luvit .or ul li:nth-child(2) a {
+  font-size: 18px;
+  background-color: #e62833;
+  width: 15px;
+  height: 15px;
+  display: block;
+  color: white;
+  border: 1px solid #e62833;
+  border-radius: 50px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.luvit .or ul li a:hover {
+  transform: translate(0px, -5px);
+}
+
+.luvit .login {
+  text-align: center;
+}
+
+.luvit .login p {
+  color: #888;
+  font-size: 14px;
+}
+
+.luvit .login a {
+  color: #f8786b;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.luvit .login a:hover {
+  color: #e62e04;
+}
